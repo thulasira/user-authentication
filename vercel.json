@@ -18,16 +18,11 @@
     "JWT_SECRET": "e9cfc88d48b675ebdb4bdbf7384e5641d78d79f7192bb9823a1fece99b4078ab"
      
   },
-  "functions": {
-    "api/test.js": {
-      "maxDuration": 60 // This function can run for a maximum of 30 seconds
-    },
+  "functions": { 
     "api/*.js": {
       "maxDuration": 60 // This function can run for a maximum of 15 seconds
-    },
-    "src/api/*.js": {
-      "maxDuration": 60 // You must prefix functions in the src directory with /src/
     }
+    
   }
   
 }
