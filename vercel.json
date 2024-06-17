@@ -18,8 +18,8 @@
     "PORT": "5050"
   },
   "functions": {
-    "api/*": {
-      "memory": 3009,
+    "api/*.js": {
+      "memory": 1024,
       "maxDuration": 30
     }
   }
