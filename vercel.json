@@ -1,9 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/*": {
-      "maxDuration": 50 
-    }
+      "maxDuration": 50
   },
   "builds": [
     {
